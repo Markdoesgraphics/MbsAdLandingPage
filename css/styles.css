@@ -1,0 +1,217 @@
+/*HEADING SECTIONS*/
+
+#heading{
+	padding: 2% 5%;
+	background-color: #BCCEF8;
+	background-image: url("../images/img-background-01.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+/*    line-height: 1.5;*/
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+h5{
+	padding-top: 2%;
+	font-family: 'Montserrat', sans-serif;
+	color: #EAFDFC;
+}
+
+.logoImg{
+	height: 50px;
+}
+
+.headingButton{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 1.5%;
+}
+
+
+/*SERVICES SECTIONS*/
+
+#services{
+	background-color: #CDFCF6;
+
+	padding: 5% 15%;
+}
+
+.servicesRow{
+	text-align: center;
+
+}
+
+.servicesIcons{
+	height: 50px;
+	margin: 5% auto;
+}
+
+h2{
+	text-align: center;
+	margin: 3% auto;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1.3rem;
+    color: #3D5656;
+    text-align: center;
+    padding: 2%;
+
+}
+
+h4{
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 1.1rem;
+	text-align: justify-all;
+}
+
+
+/*REVIEWS SECTION*/
+
+#reviews{
+	text-align: center;
+	background-color: white;
+	padding: 5% 15%;
+}
+
+.reviewImg{
+	margin: 5% auto;
+}
+
+/*.carouselControlP{
+	margin-right: 25%;
+}
+*/
+
+/*CALL TO ACTION SECTION*/
+
+#callToAction{
+	text-align: center;
+	padding: 5% 15%;
+	background-color:#CDFCF6 ;
+}
+
+.ctaVideo{
+	width: 100%;
+	height: 30%;
+}
+
+.ctaBtn{
+	margin-top: 5%;
+}
+
+/*FOOTER SECTION*/
+
+#footer{
+/*	background-color: #98A8F8;*/
+	text-align: center;
+	padding: 5% 5%;
+}
+
+.footerH3{
+	padding: 15% auto 0 auto;
+}
+
+.fa-brands{
+	margin: 0% 0.5% 2%;
+	color: grey;
+}
+
+.list-group-item-action{
+	display: inline;
+}
+
+/*Querries*/
+
+@media (max-width: 400px){
+     
+/*heading section*/
+
+	h1{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+h5{
+	font-size: 0.9rem;
+	padding-top: 2%;
+	font-family: 'Montserrat', sans-serif;
+	color: #EAFDFC;
+}
+
+.headingButton{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 5% auto;
+}
+
+.logoImg{
+	height: 25px;
+}
+
+/*Servies section*/
+
+
+h2{
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 3% auto;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1rem;
+    color: #3D5656;
+    text-align: center;
+    padding: 2%;
+
+}
+
+h4{
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 0.8rem;
+	text-align: justify-all;
+}
+
+/*CAROUSEL SECTION*/
+
+.cH3{
+	line-height: 1.3;
+}
+
+/*CTA SECTION*/
+
+.ctaBtn{
+	font-weight: 400;
+	font-size: 0.8rem;
+}
+
+/*FOOTER SECTION*/
+
+li{
+	font-size: 0.8rem;
+}
+
+
+
+}
