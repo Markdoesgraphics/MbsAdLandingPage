@@ -5,6 +5,7 @@
 	background-color: #BCCEF8;
 	background-image: url("../images/img-background-01.jpg");
 	background-size: cover;
+	background-position: center;
 	text-align: center;
 }
 
@@ -41,7 +42,7 @@ h5{
 #services{
 	background-color: #CDFCF6;
 
-	padding: 5% 15%;
+	padding: 2% 15%;
 }
 
 .servicesRow{
